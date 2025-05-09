@@ -5,7 +5,7 @@ public class Numeros {
         String numero1 = JOptionPane.showInputDialog("Ingresa um mumero: ");
         String numero2 = JOptionPane.showInputDialog("Ingresa un numero: ");
         int numeroEntero1 = Integer.parseInt(numero1);
-        int numeroEntero2 = Integer.parseInt(numero2);
+        double numeroEntero2 = Double.parseDouble(numero2);
         System.out.println(numeroEntero1 + numeroEntero2);
         System.out.println(numeroEntero1 / numeroEntero2);
         System.out.println(numeroEntero1 * numeroEntero2);
